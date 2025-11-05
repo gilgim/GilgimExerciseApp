@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		16705E6C2EBB357C00E4834F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16705E682EBB357C00E4834F /* Assets.xcassets */; };
+		16705E6D2EBB357C00E4834F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E692EBB357C00E4834F /* ContentView.swift */; };
+		16705E6E2EBB357C00E4834F /* GilgimExerciseAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E6A2EBB357C00E4834F /* GilgimExerciseAppApp.swift */; };
+		16705E722EBB37CC00E4834F /* BodyTypeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E712EBB37C700E4834F /* BodyTypeListView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		16705E5A2EBB34E200E4834F /* GilgimExerciseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GilgimExerciseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16705E682EBB357C00E4834F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16705E692EBB357C00E4834F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		16705E6A2EBB357C00E4834F /* GilgimExerciseAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GilgimExerciseAppApp.swift; sourceTree = "<group>"; };
+		16705E712EBB37C700E4834F /* BodyTypeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTypeListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		16705E5C2EBB34E200E4834F /* GilgimExerciseApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GilgimExerciseApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		16705E572EBB34E200E4834F /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		16705E512EBB34E200E4834F = {
 			isa = PBXGroup;
 			children = (
-				16705E5C2EBB34E200E4834F /* GilgimExerciseApp */,
+				16705E6B2EBB357C00E4834F /* GilgimExerciseApp */,
 				16705E5B2EBB34E200E4834F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,33 @@
 				16705E5A2EBB34E200E4834F /* GilgimExerciseApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		16705E6B2EBB357C00E4834F /* GilgimExerciseApp */ = {
+			isa = PBXGroup;
+			children = (
+				16705E682EBB357C00E4834F /* Assets.xcassets */,
+				16705E692EBB357C00E4834F /* ContentView.swift */,
+				16705E6F2EBB37AA00E4834F /* BodyTypeList */,
+				16705E6A2EBB357C00E4834F /* GilgimExerciseAppApp.swift */,
+			);
+			path = GilgimExerciseApp;
+			sourceTree = "<group>";
+		};
+		16705E6F2EBB37AA00E4834F /* BodyTypeList */ = {
+			isa = PBXGroup;
+			children = (
+				16705E702EBB37BF00E4834F /* Presentation */,
+			);
+			path = BodyTypeList;
+			sourceTree = "<group>";
+		};
+		16705E702EBB37BF00E4834F /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				16705E712EBB37C700E4834F /* BodyTypeListView.swift */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +89,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				16705E5C2EBB34E200E4834F /* GilgimExerciseApp */,
 			);
 			name = GilgimExerciseApp;
 			packageProductDependencies = (
@@ -109,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16705E6C2EBB357C00E4834F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16705E722EBB37CC00E4834F /* BodyTypeListView.swift in Sources */,
+				16705E6D2EBB357C00E4834F /* ContentView.swift in Sources */,
+				16705E6E2EBB357C00E4834F /* GilgimExerciseAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
