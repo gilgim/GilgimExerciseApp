@@ -11,6 +11,13 @@
 		16705E6D2EBB357C00E4834F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E692EBB357C00E4834F /* ContentView.swift */; };
 		16705E6E2EBB357C00E4834F /* GilgimExerciseAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E6A2EBB357C00E4834F /* GilgimExerciseAppApp.swift */; };
 		16705E722EBB37CC00E4834F /* BodyTypeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E712EBB37C700E4834F /* BodyTypeListView.swift */; };
+		16705E802EBB3C5700E4834F /* LoadExerciseUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E7F2EBB3C5700E4834F /* LoadExerciseUseCase.swift */; };
+		16705E842EBB3C8000E4834F /* ExerciseListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E832EBB3C8000E4834F /* ExerciseListRepository.swift */; };
+		16705E872EBB3CE200E4834F /* MuscleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E862EBB3CE200E4834F /* MuscleGroup.swift */; };
+		16705E892EBB3CE700E4834F /* Equipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E882EBB3CE700E4834F /* Equipment.swift */; };
+		16705E8B2EBB3CEC00E4834F /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E8A2EBB3CEC00E4834F /* Exercise.swift */; };
+		16705E8E2EBB3CFA00E4834F /* ImpExerciseListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E8D2EBB3CFA00E4834F /* ImpExerciseListRepository.swift */; };
+		16705E902EBB3D9500E4834F /* LoadMuscleUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E8F2EBB3D9500E4834F /* LoadMuscleUseCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		16705E692EBB357C00E4834F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		16705E6A2EBB357C00E4834F /* GilgimExerciseAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GilgimExerciseAppApp.swift; sourceTree = "<group>"; };
 		16705E712EBB37C700E4834F /* BodyTypeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTypeListView.swift; sourceTree = "<group>"; };
+		16705E7F2EBB3C5700E4834F /* LoadExerciseUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadExerciseUseCase.swift; sourceTree = "<group>"; };
+		16705E832EBB3C8000E4834F /* ExerciseListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListRepository.swift; sourceTree = "<group>"; };
+		16705E862EBB3CE200E4834F /* MuscleGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleGroup.swift; sourceTree = "<group>"; };
+		16705E882EBB3CE700E4834F /* Equipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equipment.swift; sourceTree = "<group>"; };
+		16705E8A2EBB3CEC00E4834F /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		16705E8D2EBB3CFA00E4834F /* ImpExerciseListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpExerciseListRepository.swift; sourceTree = "<group>"; };
+		16705E8F2EBB3D9500E4834F /* LoadMuscleUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadMuscleUseCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +76,8 @@
 		16705E6F2EBB37AA00E4834F /* BodyTypeList */ = {
 			isa = PBXGroup;
 			children = (
+				16705E8C2EBB3CF200E4834F /* Data */,
+				16705E812EBB3C6A00E4834F /* Domain */,
 				16705E702EBB37BF00E4834F /* Presentation */,
 			);
 			path = BodyTypeList;
@@ -73,6 +89,51 @@
 				16705E712EBB37C700E4834F /* BodyTypeListView.swift */,
 			);
 			path = Presentation;
+			sourceTree = "<group>";
+		};
+		16705E7E2EBB3C4C00E4834F /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				16705E8F2EBB3D9500E4834F /* LoadMuscleUseCase.swift */,
+				16705E7F2EBB3C5700E4834F /* LoadExerciseUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		16705E812EBB3C6A00E4834F /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				16705E852EBB3CD900E4834F /* Entities */,
+				16705E822EBB3C7500E4834F /* Repository */,
+				16705E7E2EBB3C4C00E4834F /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		16705E822EBB3C7500E4834F /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				16705E832EBB3C8000E4834F /* ExerciseListRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		16705E852EBB3CD900E4834F /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				16705E8A2EBB3CEC00E4834F /* Exercise.swift */,
+				16705E882EBB3CE700E4834F /* Equipment.swift */,
+				16705E862EBB3CE200E4834F /* MuscleGroup.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		16705E8C2EBB3CF200E4834F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				16705E8D2EBB3CFA00E4834F /* ImpExerciseListRepository.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +209,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				16705E722EBB37CC00E4834F /* BodyTypeListView.swift in Sources */,
+				16705E8B2EBB3CEC00E4834F /* Exercise.swift in Sources */,
+				16705E802EBB3C5700E4834F /* LoadExerciseUseCase.swift in Sources */,
+				16705E872EBB3CE200E4834F /* MuscleGroup.swift in Sources */,
 				16705E6D2EBB357C00E4834F /* ContentView.swift in Sources */,
+				16705E842EBB3C8000E4834F /* ExerciseListRepository.swift in Sources */,
+				16705E8E2EBB3CFA00E4834F /* ImpExerciseListRepository.swift in Sources */,
+				16705E902EBB3D9500E4834F /* LoadMuscleUseCase.swift in Sources */,
+				16705E892EBB3CE700E4834F /* Equipment.swift in Sources */,
 				16705E6E2EBB357C00E4834F /* GilgimExerciseAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

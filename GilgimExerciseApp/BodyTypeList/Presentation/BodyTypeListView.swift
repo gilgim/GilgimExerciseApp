@@ -9,6 +9,7 @@ import SwiftUI
 import Combine
 
 struct BodyTypeListView: View {
+    @StateObject var viewModel: BodyTypeListViewModel
     var body: some View {
         ScrollView {
             LazyVStack {
@@ -19,24 +20,36 @@ struct BodyTypeListView: View {
 }
 
 #Preview {
-    BodyTypeListView()
+    BodyTypeListView(viewModel: .init(repo: ImpExerciseListRepository()))
 }
 
-struct BodyType: Hashable {
-    let id = UUID()
-    let partName: String
-}
 
-struct ImpBodyTypeListRepository: BodyTypeListRepository {
-    func loadBodyType() async throws -> [BodyType] {
-        return []
-    }
-}
 
-protocol BodyTypeListRepository {
-    func loadBodyType() async throws -> [BodyType]
-}
+
+
+
+
 
 final class BodyTypeListViewModel: ObservableObject {
+    @Published private(set) var state: State = .init()
     
+    let loadMuscleGroup: LoadMuscleUseCase
+    let loadExercise: LoadExerciseUseCase
+    
+    init(repo: ExerciseListRepository) {
+        self.loadMuscleGroup = .init(repo: repo)
+        self.loadExercise = .init(repo: repo)
+    }
+    
+    struct State {
+        let muscleGroups: [MuscleGroup] = .init()
+    }
+    
+    enum Action {
+        case onAppear
+    }
+    
+    func send(_ action: Action) async {
+        
+    }
 }
