@@ -9,7 +9,7 @@ import Foundation
 
 struct LoadMuscleUseCase {
     let repo: ExerciseListRepository
-    func callAsFunction(muscle: MuscleGroup) async -> [MuscleGroup] {
+    func callAsFunction() async -> [MuscleGroup] {
         return await repo.loadMuscleGroup()
     }
 }

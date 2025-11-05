@@ -18,6 +18,7 @@
 		16705E8B2EBB3CEC00E4834F /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E8A2EBB3CEC00E4834F /* Exercise.swift */; };
 		16705E8E2EBB3CFA00E4834F /* ImpExerciseListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E8D2EBB3CFA00E4834F /* ImpExerciseListRepository.swift */; };
 		16705E902EBB3D9500E4834F /* LoadMuscleUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E8F2EBB3D9500E4834F /* LoadMuscleUseCase.swift */; };
+		16705E922EBB3F8800E4834F /* BodyTypeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E912EBB3F8800E4834F /* BodyTypeListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		16705E8A2EBB3CEC00E4834F /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		16705E8D2EBB3CFA00E4834F /* ImpExerciseListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpExerciseListRepository.swift; sourceTree = "<group>"; };
 		16705E8F2EBB3D9500E4834F /* LoadMuscleUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadMuscleUseCase.swift; sourceTree = "<group>"; };
+		16705E912EBB3F8800E4834F /* BodyTypeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTypeListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		16705E702EBB37BF00E4834F /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				16705E912EBB3F8800E4834F /* BodyTypeListViewModel.swift */,
 				16705E712EBB37C700E4834F /* BodyTypeListView.swift */,
 			);
 			path = Presentation;
@@ -218,6 +221,7 @@
 				16705E902EBB3D9500E4834F /* LoadMuscleUseCase.swift in Sources */,
 				16705E892EBB3CE700E4834F /* Equipment.swift in Sources */,
 				16705E6E2EBB357C00E4834F /* GilgimExerciseAppApp.swift in Sources */,
+				16705E922EBB3F8800E4834F /* BodyTypeListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
