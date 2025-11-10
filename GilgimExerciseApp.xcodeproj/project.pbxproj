@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		16705E6C2EBB357C00E4834F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16705E682EBB357C00E4834F /* Assets.xcassets */; };
-		16705E6D2EBB357C00E4834F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E692EBB357C00E4834F /* ContentView.swift */; };
-		16705E6E2EBB357C00E4834F /* GilgimExerciseAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E6A2EBB357C00E4834F /* GilgimExerciseAppApp.swift */; };
 		16705E722EBB37CC00E4834F /* BodyTypeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E712EBB37C700E4834F /* BodyTypeListView.swift */; };
 		16705E802EBB3C5700E4834F /* LoadExerciseUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E7F2EBB3C5700E4834F /* LoadExerciseUseCase.swift */; };
 		16705E842EBB3C8000E4834F /* ExerciseListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E832EBB3C8000E4834F /* ExerciseListRepository.swift */; };
@@ -19,13 +17,17 @@
 		16705E8E2EBB3CFA00E4834F /* ImpExerciseListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E8D2EBB3CFA00E4834F /* ImpExerciseListRepository.swift */; };
 		16705E902EBB3D9500E4834F /* LoadMuscleUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E8F2EBB3D9500E4834F /* LoadMuscleUseCase.swift */; };
 		16705E922EBB3F8800E4834F /* BodyTypeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E912EBB3F8800E4834F /* BodyTypeListViewModel.swift */; };
+		16705E952EBC227E00E4834F /* WorkOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E942EBC227900E4834F /* WorkOutView.swift */; };
+		16705E9A2EBC2E6C00E4834F /* PretendardVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16705E992EBC2E6C00E4834F /* PretendardVariable.ttf */; };
+		16705E9E2EBC320400E4834F /* extension+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E9D2EBC31F600E4834F /* extension+Font.swift */; };
+		16705EA12EBC401000E4834F /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705EA02EBC400800E4834F /* App.swift */; };
+		16705EA32EBC407200E4834F /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705EA22EBC407200E4834F /* MainTabView.swift */; };
+		16705FE52EC1820500E4834F /* extension+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705FE42EC1820500E4834F /* extension+Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		16705E5A2EBB34E200E4834F /* GilgimExerciseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GilgimExerciseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16705E682EBB357C00E4834F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		16705E692EBB357C00E4834F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		16705E6A2EBB357C00E4834F /* GilgimExerciseAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GilgimExerciseAppApp.swift; sourceTree = "<group>"; };
 		16705E712EBB37C700E4834F /* BodyTypeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTypeListView.swift; sourceTree = "<group>"; };
 		16705E7F2EBB3C5700E4834F /* LoadExerciseUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadExerciseUseCase.swift; sourceTree = "<group>"; };
 		16705E832EBB3C8000E4834F /* ExerciseListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListRepository.swift; sourceTree = "<group>"; };
@@ -35,6 +37,13 @@
 		16705E8D2EBB3CFA00E4834F /* ImpExerciseListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpExerciseListRepository.swift; sourceTree = "<group>"; };
 		16705E8F2EBB3D9500E4834F /* LoadMuscleUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadMuscleUseCase.swift; sourceTree = "<group>"; };
 		16705E912EBB3F8800E4834F /* BodyTypeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTypeListViewModel.swift; sourceTree = "<group>"; };
+		16705E942EBC227900E4834F /* WorkOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkOutView.swift; sourceTree = "<group>"; };
+		16705E992EBC2E6C00E4834F /* PretendardVariable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PretendardVariable.ttf; sourceTree = "<group>"; };
+		16705E9C2EBC309500E4834F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		16705E9D2EBC31F600E4834F /* extension+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+Font.swift"; sourceTree = "<group>"; };
+		16705EA02EBC400800E4834F /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		16705EA22EBC407200E4834F /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		16705FE42EC1820500E4834F /* extension+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+Color.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +76,13 @@
 		16705E6B2EBB357C00E4834F /* GilgimExerciseApp */ = {
 			isa = PBXGroup;
 			children = (
+				16705E9C2EBC309500E4834F /* Info.plist */,
+				16705E9F2EBC3FBC00E4834F /* MainApp */,
 				16705E682EBB357C00E4834F /* Assets.xcassets */,
-				16705E692EBB357C00E4834F /* ContentView.swift */,
+				16705E962EBC2BEB00E4834F /* Core */,
+				16705E932EBC226D00E4834F /* WorkOut */,
+				16705EAA2EBC48AF00E4834F /* Home */,
 				16705E6F2EBB37AA00E4834F /* BodyTypeList */,
-				16705E6A2EBB357C00E4834F /* GilgimExerciseAppApp.swift */,
 			);
 			path = GilgimExerciseApp;
 			sourceTree = "<group>";
@@ -88,8 +100,8 @@
 		16705E702EBB37BF00E4834F /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				16705E912EBB3F8800E4834F /* BodyTypeListViewModel.swift */,
 				16705E712EBB37C700E4834F /* BodyTypeListView.swift */,
+				16705E912EBB3F8800E4834F /* BodyTypeListViewModel.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -137,6 +149,64 @@
 				16705E8D2EBB3CFA00E4834F /* ImpExerciseListRepository.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		16705E932EBC226D00E4834F /* WorkOut */ = {
+			isa = PBXGroup;
+			children = (
+				16705E942EBC227900E4834F /* WorkOutView.swift */,
+			);
+			path = WorkOut;
+			sourceTree = "<group>";
+		};
+		16705E962EBC2BEB00E4834F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				16705E972EBC2BFD00E4834F /* DesignSystem */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		16705E972EBC2BFD00E4834F /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				16705FDF2EC180C900E4834F /* Color */,
+				16705E982EBC2C1B00E4834F /* Font */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		16705E982EBC2C1B00E4834F /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				16705E9D2EBC31F600E4834F /* extension+Font.swift */,
+				16705E992EBC2E6C00E4834F /* PretendardVariable.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		16705E9F2EBC3FBC00E4834F /* MainApp */ = {
+			isa = PBXGroup;
+			children = (
+				16705EA02EBC400800E4834F /* App.swift */,
+				16705EA22EBC407200E4834F /* MainTabView.swift */,
+			);
+			path = MainApp;
+			sourceTree = "<group>";
+		};
+		16705EAA2EBC48AF00E4834F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		16705FDF2EC180C900E4834F /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				16705FE42EC1820500E4834F /* extension+Color.swift */,
+			);
+			path = Color;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16705E6C2EBB357C00E4834F /* Assets.xcassets in Resources */,
+				16705E9A2EBC2E6C00E4834F /* PretendardVariable.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,15 +284,18 @@
 			files = (
 				16705E722EBB37CC00E4834F /* BodyTypeListView.swift in Sources */,
 				16705E8B2EBB3CEC00E4834F /* Exercise.swift in Sources */,
+				16705E952EBC227E00E4834F /* WorkOutView.swift in Sources */,
 				16705E802EBB3C5700E4834F /* LoadExerciseUseCase.swift in Sources */,
 				16705E872EBB3CE200E4834F /* MuscleGroup.swift in Sources */,
-				16705E6D2EBB357C00E4834F /* ContentView.swift in Sources */,
+				16705EA12EBC401000E4834F /* App.swift in Sources */,
 				16705E842EBB3C8000E4834F /* ExerciseListRepository.swift in Sources */,
+				16705E9E2EBC320400E4834F /* extension+Font.swift in Sources */,
 				16705E8E2EBB3CFA00E4834F /* ImpExerciseListRepository.swift in Sources */,
+				16705FE52EC1820500E4834F /* extension+Color.swift in Sources */,
 				16705E902EBB3D9500E4834F /* LoadMuscleUseCase.swift in Sources */,
 				16705E892EBB3CE700E4834F /* Equipment.swift in Sources */,
-				16705E6E2EBB357C00E4834F /* GilgimExerciseAppApp.swift in Sources */,
 				16705E922EBB3F8800E4834F /* BodyTypeListViewModel.swift in Sources */,
+				16705EA32EBC407200E4834F /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +433,7 @@
 				DEVELOPMENT_TEAM = AZQ9YD7HMA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GilgimExerciseApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -391,6 +466,7 @@
 				DEVELOPMENT_TEAM = AZQ9YD7HMA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GilgimExerciseApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
