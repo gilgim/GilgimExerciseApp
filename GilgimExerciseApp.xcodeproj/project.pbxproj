@@ -23,6 +23,8 @@
 		16705EA12EBC401000E4834F /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705EA02EBC400800E4834F /* App.swift */; };
 		16705EA32EBC407200E4834F /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705EA22EBC407200E4834F /* MainTabView.swift */; };
 		16705FE52EC1820500E4834F /* extension+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705FE42EC1820500E4834F /* extension+Color.swift */; };
+		B004443D2ED48AE1004E08B5 /* WorkOutStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B004443C2ED48ADC004E08B5 /* WorkOutStore.swift */; };
+		B004443F2ED48C33004E08B5 /* WorkOutDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = B004443E2ED48C33004E08B5 /* WorkOutDependency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		16705EA02EBC400800E4834F /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		16705EA22EBC407200E4834F /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		16705FE42EC1820500E4834F /* extension+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+Color.swift"; sourceTree = "<group>"; };
+		B004443C2ED48ADC004E08B5 /* WorkOutStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkOutStore.swift; sourceTree = "<group>"; };
+		B004443E2ED48C33004E08B5 /* WorkOutDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkOutDependency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +158,8 @@
 		16705E932EBC226D00E4834F /* WorkOut */ = {
 			isa = PBXGroup;
 			children = (
+				B004443E2ED48C33004E08B5 /* WorkOutDependency.swift */,
+				B004443C2ED48ADC004E08B5 /* WorkOutStore.swift */,
 				16705E942EBC227900E4834F /* WorkOutView.swift */,
 			);
 			path = WorkOut;
@@ -286,6 +292,7 @@
 				16705E8B2EBB3CEC00E4834F /* Exercise.swift in Sources */,
 				16705E952EBC227E00E4834F /* WorkOutView.swift in Sources */,
 				16705E802EBB3C5700E4834F /* LoadExerciseUseCase.swift in Sources */,
+				B004443D2ED48AE1004E08B5 /* WorkOutStore.swift in Sources */,
 				16705E872EBB3CE200E4834F /* MuscleGroup.swift in Sources */,
 				16705EA12EBC401000E4834F /* App.swift in Sources */,
 				16705E842EBB3C8000E4834F /* ExerciseListRepository.swift in Sources */,
@@ -293,6 +300,7 @@
 				16705E8E2EBB3CFA00E4834F /* ImpExerciseListRepository.swift in Sources */,
 				16705FE52EC1820500E4834F /* extension+Color.swift in Sources */,
 				16705E902EBB3D9500E4834F /* LoadMuscleUseCase.swift in Sources */,
+				B004443F2ED48C33004E08B5 /* WorkOutDependency.swift in Sources */,
 				16705E892EBB3CE700E4834F /* Equipment.swift in Sources */,
 				16705E922EBB3F8800E4834F /* BodyTypeListViewModel.swift in Sources */,
 				16705EA32EBC407200E4834F /* MainTabView.swift in Sources */,
