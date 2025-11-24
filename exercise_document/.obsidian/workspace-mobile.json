@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "297537d55264300e",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac1a8dc26e05a91e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "59cbf456d1c45ba1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Dynamic Test Template.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dynamic Test Template"
+            }
+          },
+          {
+            "id": "2f1716aece4bf365",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note/Test/2024년 12월 18일 Test.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024년 12월 18일 Test"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e230a4f9da99b457",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "9ffebb73440f78a3",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-folder-closed",
+          "title": "파일 탐색기"
+        }
+      },
+      {
+        "id": "9089917892c61512",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "검색"
+        }
+      },
+      {
+        "id": "a5908634eb3670cd",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "3806e2037ba43c85",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "cb8aa26848cef33e",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "4f0d5a8fa2b0ad66",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "KB Meeting - 2024년 12월 27일.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "백링크"
+        }
+      },
+      {
+        "id": "0a7c87126ab02fcd",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Note/Meeting/KB Meeting - 2024년 11월 29일.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "나가는 링크"
+        }
+      },
+      {
+        "id": "88d5efa418cc2055",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Note/Meeting/KB Meeting - 2024년 11월 29일.md"
+          },
+          "icon": "lucide-list",
+          "title": "개요"
+        }
+      },
+      {
+        "id": "cb763f9a5de47438",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:새 보드 만들기": false
+    }
+  },
+  "active": "2f1716aece4bf365",
+  "lastOpenFiles": [
+    "Templates/Dynamic Test Template.md",
+    "KB Meeting - 2024년 12월 27일.md",
+    "Note/QnA/Q&A - 2024년 12월 12일.md",
+    "Note/QnA/Q&A - 2024년 12월 17일.md",
+    "Note/QnA/Q&A - 2024년 12월 18일.md",
+    "Note/QnA/Q&A - 2024년 12월 24일.md",
+    "Note/Meeting/KB Meeting - 2024년 12월 24일.md",
+    "Q&A - 2024년 12월 24일.md",
+    "Note/Test/2024년 12월 18일 Test.md",
+    "Note/QnA/Q&A - 2024년 12월 16일.md",
+    "Note/QnA/Q&A - 2024년 12월 23일.md",
+    "Note/QnA/Q&A - 2024년 12월 20일.md",
+    "Note/Meeting/KB Meeting - 2024년 12월 17일.md",
+    "Note/Meeting/KB Meeting - 2024년 12월 18일.md",
+    "Note/Test/KBTest.md",
+    "Note/Test/2024년 12월 13일 Test.md",
+    "Note/Test/2024년 12월 19일 Test.md",
+    "KB Meeting - 2024년 12월 24일.md",
+    "KB Meeting - 2024년 12월 18일.md",
+    "Note/Develop/Dev Management - 2024년 12월 03일.md",
+    "KB Meeting - 2024년 12월 17일.md",
+    "Note/QnA/Q&A - 2024년 12월 04일.md",
+    "Note/Test/2024년 12월 03일 Test.md",
+    "Note/Test/2024년 12월 04일 Test.md",
+    "Note/QnA/Q&A - 2024년 11월 29일.md",
+    "Note/Meeting/KB Meeting - 2024년 12월 02일.md",
+    "Resource"
+  ]
+}
