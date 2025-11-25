@@ -16,6 +16,16 @@
 		166963292ED55B3700A31407 /* SetEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166963282ED55B3700A31407 /* SetEntity.swift */; };
 		1669632B2ED55B6200A31407 /* CalendarEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1669632A2ED55B6200A31407 /* CalendarEntity.swift */; };
 		166963302ED55F9B00A31407 /* ExerciseMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1669632F2ED55F9900A31407 /* ExerciseMapper.swift */; };
+		166963332ED567D300A31407 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166963322ED567C500A31407 /* ExerciseView.swift */; };
+		166963352ED568C600A31407 /* ExerciseListStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166963342ED568C000A31407 /* ExerciseListStore.swift */; };
+		166963372ED56BB400A31407 /* ExerciseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166963362ED56BA900A31407 /* ExerciseRepository.swift */; };
+		1669633A2ED56C9700A31407 /* MockExerciseRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166963392ED56C9000A31407 /* MockExerciseRepo.swift */; };
+		1669633E2ED5727E00A31407 /* SaveExerciseUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1669633D2ED5725600A31407 /* SaveExerciseUseCase.swift */; };
+		166963402ED572B000A31407 /* DeleteExerciseUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1669633F2ED572B000A31407 /* DeleteExerciseUseCase.swift */; };
+		166963422ED572B100A31407 /* UpdateExerciseUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166963412ED572B100A31407 /* UpdateExerciseUseCase.swift */; };
+		166963442ED572B300A31407 /* LoadExerciseUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166963432ED572B300A31407 /* LoadExerciseUseCase.swift */; };
+		166963462ED573A400A31407 /* ExerciseListDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166963452ED573A400A31407 /* ExerciseListDependency.swift */; };
+		166963482ED5814C00A31407 /* ExerciseRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166963472ED5814C00A31407 /* ExerciseRoute.swift */; };
 		16705E6C2EBB357C00E4834F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16705E682EBB357C00E4834F /* Assets.xcassets */; };
 		16705E952EBC227E00E4834F /* WorkOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16705E942EBC227900E4834F /* WorkOutView.swift */; };
 		16705E9A2EBC2E6C00E4834F /* PretendardVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16705E992EBC2E6C00E4834F /* PretendardVariable.ttf */; };
@@ -35,6 +45,16 @@
 		166963282ED55B3700A31407 /* SetEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetEntity.swift; sourceTree = "<group>"; };
 		1669632A2ED55B6200A31407 /* CalendarEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEntity.swift; sourceTree = "<group>"; };
 		1669632F2ED55F9900A31407 /* ExerciseMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseMapper.swift; sourceTree = "<group>"; };
+		166963322ED567C500A31407 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		166963342ED568C000A31407 /* ExerciseListStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListStore.swift; sourceTree = "<group>"; };
+		166963362ED56BA900A31407 /* ExerciseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRepository.swift; sourceTree = "<group>"; };
+		166963392ED56C9000A31407 /* MockExerciseRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockExerciseRepo.swift; sourceTree = "<group>"; };
+		1669633D2ED5725600A31407 /* SaveExerciseUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveExerciseUseCase.swift; sourceTree = "<group>"; };
+		1669633F2ED572B000A31407 /* DeleteExerciseUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteExerciseUseCase.swift; sourceTree = "<group>"; };
+		166963412ED572B100A31407 /* UpdateExerciseUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateExerciseUseCase.swift; sourceTree = "<group>"; };
+		166963432ED572B300A31407 /* LoadExerciseUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadExerciseUseCase.swift; sourceTree = "<group>"; };
+		166963452ED573A400A31407 /* ExerciseListDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListDependency.swift; sourceTree = "<group>"; };
+		166963472ED5814C00A31407 /* ExerciseRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRoute.swift; sourceTree = "<group>"; };
 		16705E5A2EBB34E200E4834F /* GilgimExerciseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GilgimExerciseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16705E682EBB357C00E4834F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16705E942EBC227900E4834F /* WorkOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkOutView.swift; sourceTree = "<group>"; };
@@ -60,6 +80,8 @@
 		1669631B2ED53D4C00A31407 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				1669633C2ED5721700A31407 /* UseCases */,
+				1669632E2ED55F7600A31407 /* Repository */,
 				1669631C2ED53E6B00A31407 /* Entities */,
 			);
 			path = Domain;
@@ -80,7 +102,6 @@
 			children = (
 				1669632C2ED55CF400A31407 /* Entities */,
 				1669632D2ED55EBE00A31407 /* Mappers */,
-				1669632E2ED55F7600A31407 /* Repository */,
 			);
 			path = SwiftData;
 			sourceTree = "<group>";
@@ -107,8 +128,40 @@
 		1669632E2ED55F7600A31407 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				166963362ED56BA900A31407 /* ExerciseRepository.swift */,
+				166963382ED56C3B00A31407 /* Imp */,
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		166963312ED567AE00A31407 /* FeatureExercise */ = {
+			isa = PBXGroup;
+			children = (
+				166963472ED5814C00A31407 /* ExerciseRoute.swift */,
+				166963452ED573A400A31407 /* ExerciseListDependency.swift */,
+				166963342ED568C000A31407 /* ExerciseListStore.swift */,
+				166963322ED567C500A31407 /* ExerciseView.swift */,
+			);
+			path = FeatureExercise;
+			sourceTree = "<group>";
+		};
+		166963382ED56C3B00A31407 /* Imp */ = {
+			isa = PBXGroup;
+			children = (
+				166963392ED56C9000A31407 /* MockExerciseRepo.swift */,
+			);
+			path = Imp;
+			sourceTree = "<group>";
+		};
+		1669633C2ED5721700A31407 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				1669633D2ED5725600A31407 /* SaveExerciseUseCase.swift */,
+				166963432ED572B300A31407 /* LoadExerciseUseCase.swift */,
+				166963412ED572B100A31407 /* UpdateExerciseUseCase.swift */,
+				1669633F2ED572B000A31407 /* DeleteExerciseUseCase.swift */,
+			);
+			path = UseCases;
 			sourceTree = "<group>";
 		};
 		16705E512EBB34E200E4834F = {
@@ -134,18 +187,19 @@
 				16705E9F2EBC3FBC00E4834F /* MainApp */,
 				16705E682EBB357C00E4834F /* Assets.xcassets */,
 				16705E962EBC2BEB00E4834F /* Core */,
-				16705E932EBC226D00E4834F /* WorkOut */,
-				16705EAA2EBC48AF00E4834F /* Home */,
+				16705E932EBC226D00E4834F /* FeatureWorkOut */,
+				166963312ED567AE00A31407 /* FeatureExercise */,
+				16705EAA2EBC48AF00E4834F /* FeatureHome */,
 			);
 			path = GilgimExerciseApp;
 			sourceTree = "<group>";
 		};
-		16705E932EBC226D00E4834F /* WorkOut */ = {
+		16705E932EBC226D00E4834F /* FeatureWorkOut */ = {
 			isa = PBXGroup;
 			children = (
 				16705E942EBC227900E4834F /* WorkOutView.swift */,
 			);
-			path = WorkOut;
+			path = FeatureWorkOut;
 			sourceTree = "<group>";
 		};
 		16705E962EBC2BEB00E4834F /* Core */ = {
@@ -185,12 +239,12 @@
 			path = MainApp;
 			sourceTree = "<group>";
 		};
-		16705EAA2EBC48AF00E4834F /* Home */ = {
+		16705EAA2EBC48AF00E4834F /* FeatureHome */ = {
 			isa = PBXGroup;
 			children = (
 				165531102ECD34DC00957B38 /* HomeView.swift */,
 			);
-			path = Home;
+			path = FeatureHome;
 			sourceTree = "<group>";
 		};
 		16705FDF2EC180C900E4834F /* Color */ = {
@@ -277,16 +331,26 @@
 				16705E952EBC227E00E4834F /* WorkOutView.swift in Sources */,
 				166963212ED555CE00A31407 /* Exercise.swift in Sources */,
 				165531112ECD34DC00957B38 /* HomeView.swift in Sources */,
+				166963352ED568C600A31407 /* ExerciseListStore.swift in Sources */,
 				16705EA12EBC401000E4834F /* App.swift in Sources */,
+				1669633A2ED56C9700A31407 /* MockExerciseRepo.swift in Sources */,
 				166963272ED55B2C00A31407 /* WorkoutEntity.swift in Sources */,
 				16705E9E2EBC320400E4834F /* extension+Font.swift in Sources */,
+				166963442ED572B300A31407 /* LoadExerciseUseCase.swift in Sources */,
+				166963402ED572B000A31407 /* DeleteExerciseUseCase.swift in Sources */,
 				166963232ED558B500A31407 /* MusclePart.swift in Sources */,
+				166963372ED56BB400A31407 /* ExerciseRepository.swift in Sources */,
 				16705FE52EC1820500E4834F /* extension+Color.swift in Sources */,
+				1669633E2ED5727E00A31407 /* SaveExerciseUseCase.swift in Sources */,
 				1669632B2ED55B6200A31407 /* CalendarEntity.swift in Sources */,
+				166963332ED567D300A31407 /* ExerciseView.swift in Sources */,
 				1669631E2ED541FD00A31407 /* ExerciseEntity.swift in Sources */,
 				166963302ED55F9B00A31407 /* ExerciseMapper.swift in Sources */,
 				166963252ED558F800A31407 /* EquipmentType.swift in Sources */,
+				166963422ED572B100A31407 /* UpdateExerciseUseCase.swift in Sources */,
 				16705EA32EBC407200E4834F /* MainTabView.swift in Sources */,
+				166963482ED5814C00A31407 /* ExerciseRoute.swift in Sources */,
+				166963462ED573A400A31407 /* ExerciseListDependency.swift in Sources */,
 				166963292ED55B3700A31407 /* SetEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
